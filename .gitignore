@@ -11,3 +11,6 @@ __pycache__/
 # Virtualenv
 venv/
 .env/
+
+.DS_Store
+
