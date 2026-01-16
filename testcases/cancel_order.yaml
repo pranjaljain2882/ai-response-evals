@@ -1,0 +1,15 @@
+name: cancel_order
+prompt: "I want to cancel my order. Can I do that?"
+
+expected_behavior: >
+  Assistant should explain how to cancel an order, including the time window and refund policy.
+
+rubric:
+  - name: Accuracy
+    description: Correct cancellation procedure
+  - name: Completeness
+    description: Includes refund and cancellation rules
+  - name: Clarity
+    description: Easy to understand
+
+pass_threshold: 0.85

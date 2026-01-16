@@ -1,0 +1,19 @@
+name: refund_policy
+prompt: "How can I get a refund for my subscription?"
+
+expected_behavior: >
+  The assistant should explain refund eligibility and
+  instruct the user to contact customer support.
+
+rubric:
+  - name: Accuracy
+    description: Response aligns with expected policy
+  - name: Completeness
+    description: Covers all important steps
+  - name: Clarity
+    description: Easy to understand and structured
+  - name: Safety
+    description: No harmful or misleading content
+
+pass_threshold: 0.85
+

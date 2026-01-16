@@ -1,0 +1,15 @@
+name: order_status
+prompt: "Where is my order? I placed it 30 minutes ago."
+
+expected_behavior: >
+  Assistant should inform user how to track order and provide expected delivery time or link to track order.
+
+rubric:
+  - name: Accuracy
+    description: Provides correct tracking information
+  - name: Clarity
+    description: Clear, easy to understand
+  - name: Helpfulness
+    description: Gives actionable steps for the user
+
+pass_threshold: 0.8

@@ -1,0 +1,15 @@
+name: payment_issue
+prompt: "I paid but my order is still showing as unpaid. What should I do?"
+
+expected_behavior: >
+  Assistant should guide user to check payment status and contact Swiggy support if necessary.
+
+rubric:
+  - name: Accuracy
+    description: Gives correct payment resolution steps
+  - name: Clarity
+    description: Response is structured and understandable
+  - name: Helpfulness
+    description: Provides actionable next steps
+
+pass_threshold: 0.85

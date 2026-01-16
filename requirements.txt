@@ -1,0 +1,17 @@
+# HTTP requests
+requests>=2.31.0
+
+# YAML support
+PyYAML>=6.0
+
+# Environment variable support
+python-dotenv>=1.0.0
+
+# Unit testing
+pytest>=9.0.0
+
+# For robust async handling (optional)
+anyio>=4.12.1
+
+# Optional utilities
+ipython>=8.0.0
